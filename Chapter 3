@@ -1,0 +1,24 @@
+\documentclass{NotesOnChapter3}
+
+
+\begin{document}
+We can use the \LaTeX~shorthand for inline equations such as \( \alpha = \beta +
+\gamma + \lambda \).
+
+For numbered equations we can use the \texttt{equation} environment.
+  \begin{equation}
+    \alpha = \beta + \gamma + \lambda
+  \end{equation}
+
+If we do not want the equations to be numbered, we may use the
+\texttt{equation*} environment.
+    \begin{equation*}
+    \alpha = \beta + \gamma + \lambda
+  \end{equation*}
+
+The \texttt{align} and/or \texttt{eqnarray} environment is used to group together multiple
+equations and align them using \texttt{\&}
+\begin{align}
+    \alpha &= \beta + \gamma * \lambda \        \theta &= \frac{\alpha}{4}
+\end{align} 
+\end{document}
